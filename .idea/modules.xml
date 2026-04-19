@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java_desde_cero/02-variables-primitivas/02-variables-primitivas.iml" filepath="$PROJECT_DIR$/Java_desde_cero/02-variables-primitivas/02-variables-primitivas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CursoJava.iml" filepath="$PROJECT_DIR$/.idea/CursoJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_desde_cero/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/Java_desde_cero/hello-world/hello-world.iml" />
+    </modules>
+  </component>
+</project>
