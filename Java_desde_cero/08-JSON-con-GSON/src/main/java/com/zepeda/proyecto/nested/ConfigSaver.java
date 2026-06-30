@@ -1,0 +1,29 @@
+package com.zepeda.proyecto.nested;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class ConfigSaver {
+    public static void saveConfig(AppConfig config, String filePath) {
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        try (FileWriter writer = new FileWriter(filePath)) {
+            gson.toJson(config, writer);
+            System.out.println("Configuracion guardada");
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
+    }
+
+    public static void main(String[] args) {
+        AppConfig config = ConfigLoader.loadConfig("08-JSON-con-GSON/config.json");
+
+        if (config != null) {
+            config.getSettings().setTheme("Light");
+            saveConfig(config, "08-JSON-con-GSON/config.json");
+        }
+    }
+}

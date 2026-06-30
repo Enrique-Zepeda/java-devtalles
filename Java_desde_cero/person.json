@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Fernando",
+    "age": 30,
+    "student": true,
+    "email": "fernando@devtalles.com",
+    "hobbies": [
+      "Correr",
+      "Crear contenido",
+      "Estudiar"
+    ]
+  },
+  {
+    "name": "Teddy",
+    "age": 30,
+    "student": true,
+    "email": "teddy@devtalles.com",
+    "hobbies": [
+      "Correr",
+      "Caminar",
+      "Tenis"
+    ]
+  }
+]
